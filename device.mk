@@ -59,6 +59,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
+    OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
