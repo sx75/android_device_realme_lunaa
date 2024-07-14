@@ -16,6 +16,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # DerpFest stuff.
 EXTRA_UDFPS_ICONS := true
+TARGET_USES_MINI_GAPPS := true
 
 PRODUCT_NAME := derp_lunaa
 PRODUCT_DEVICE := lunaa
