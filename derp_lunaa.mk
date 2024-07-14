@@ -14,6 +14,9 @@ $(call inherit-product, device/realme/lunaa/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+# DerpFest stuff.
+EXTRA_UDFPS_ICONS := true
+
 PRODUCT_NAME := derp_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
